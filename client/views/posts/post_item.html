@@ -1,7 +1,7 @@
 <template name="postItem">
   <div class="post">
     <div class="post-content">
-    {{verseNumber}}. {{verseContent}}
+    <a href="{{pathFor 'postPage'}}" class="verseNumber btn">{{verseNumber}}. </a> {{verseContent}}
     </div>
   </div>
 </template>
