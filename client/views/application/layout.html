@@ -1,13 +1,16 @@
 <template name="layout">
     <div class="container">
-        <header class="navbar">
-            <div class="navbar-inner">
-               <!-- pathFor returns the URL of any route - in this case / -->
-                <a class="brand" href="{{pathFor 'postsList'}}">VERSIFY</a>
-            </div>
-        </header>
+        {{>header}}
         <div id="main" class="row-fluid">
             {{yield}}
         </div>
     </div>
 </template>
+
+
+
+
+
+
+
+
