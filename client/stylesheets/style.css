@@ -25,6 +25,7 @@ body {
     position:relative;
     opacity: 1;
 }
+*/
 .post:before, .post:after {
     content: "";
     display: table;
